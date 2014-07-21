@@ -1,6 +1,8 @@
 {
     "name": "wegnermedia/presenter",
-    "description": "",
+    "description": "Simple View Presenter for Laravel.",
+    "keywords": ["laravel", "view", "presenter"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Stefan Wegner",
