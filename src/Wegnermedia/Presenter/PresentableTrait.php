@@ -3,9 +3,9 @@
 trait PresentableTrait {
 
 	/**
-	 * undocumented class variable
+	 * Current Presenter Instance
 	 *
-	 * @var string
+	 * @var object
 	 **/
 	protected $presenterInstance;
 
@@ -32,12 +32,12 @@ trait PresentableTrait {
 		}
 
 		// Singleton ... (on the current Object)
-		if ( ! $this->$presenterInstance )
+		if ( ! $this->presenterInstance )
 		{
-			$this->$presenterInstance = new $this->presenter($this);
+			$this->presenterInstance = new $this->presenter($this);
 		}
 
-		return $this->$presenterInstance;
+		return $this->presenterInstance;
 	}
 
 }
