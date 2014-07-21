@@ -1,0 +1,20 @@
+{
+    "name": "wegnermedia/presenter",
+    "description": "",
+    "authors": [
+        {
+            "name": "Stefan Wegner",
+            "email": "stefan@wegnermedia.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Wegnermedia\\Presenter": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
